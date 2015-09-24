@@ -1,10 +1,78 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-    <title></title>
+  <title>Resume</title>
+
+  <meta lang="en" charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="robots" content="noindex, nofollow, noarchive"/>
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="js/resumeBuilder.js"></script>
+
+  <!-- Google Map -->
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+
+  <link rel="shortcut icon" href="images/resume.ico" type="image/x-icon" />
 </head>
+
 <body>
-    <h3>hello!</h3>
+  <!-- main -->
+  <div id="main">
+    <!-- header -->
+    <div id="header" class="center-content">
+      <div class="biopic"></div>
+      <ul id="topContacts" class="flex-box main-contacts"></ul>
+    </div><!-- /header -->
+
+    <!-- work exp -->
+    <div id="workExperience" class="gray">
+      <h2>Work Experience</h2>
+    </div><!-- /work exp -->
+
+    <!-- projects -->
+    <div id="projects">
+      <h2>Projects</h2>
+    </div><!-- /projects -->
+
+    <!-- edu -->
+    <div id="education" class="gray">
+      <h2>Education</h2>
+    </div><!-- /edu -->
+
+    <!-- map -->
+    <div id="mapDiv">
+      <h2>Where I've Lived and Worked</h2>
+    </div><!-- /map -->
+
+    <!-- connect footer -->
+    <div id="lets-connect">
+      <h2 class="footer-connect">Let's Connect</h2>
+        <ul id="footerContacts" class="flex-box">
+      </ul>
+    </div><!-- /footer -->
+  </div><!-- /main -->
+
+  <!-- verify content exists before displaying -->
+  <script type="text/javascript">
+
+    // These are the html targets and they are defined here to
+    // keep them out of the javascript layer.
+    var resumeTargets = {
+        mainHeader: document.getElementById('header'),
+        workExperience: document.getElementById('workExperience'),
+        myProjects: document.getElementById('projects'),
+        myEducation: document.getElementById('education'),
+        mapDiv: document.getElementById('mapDiv'),
+        footerSection: document.getElementById('footerContacts')
+    };
+
+  </script>
 
 </body>
 </html>
