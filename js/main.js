@@ -130,6 +130,8 @@ var viewModel = {
     siteData: ko.observableArray(),
     pageStatus: ko.observable(),
     pages: ko.observableArray(),
+    badges: ko.observableArray(),
+    projects: ko.observableArray(),
 
     // app functions
     getDate: function() {
@@ -155,13 +157,36 @@ var viewModel = {
 
         return nav;
     },
+    getSocNav: function(d) {
+        // defines the site's social navigation items
+        // takes in the site data and returns an array
+        var soc = [],
+            index = 0,
+            urls = d,
+            len = urls.length;
+
+        while (index < len) {
+            // get the social data only
+            if (urls[index].cat === 'social') {
+                soc.push(urls[index]);
+            }
+            index += 1;
+        }
+
+        return soc;
+    },
     init: function() {
         // define the site data
         this.siteData(data);
         // define status
         this.pageStatus(data.status);
+        console.log(this.pageStatus());
         // deifne the navigation
         this.pages(this.getNav(data.urls));
+        // define the social media badges
+        this.badges(this.getSocNav(data.urls));
+        // define the projects
+        this.projects(data.projects);
 
     }
 };
