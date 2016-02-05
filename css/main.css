@@ -1,3 +1,82 @@
+/* ====================
+     global colors
+==================== */
+/* ====================
+     media queries
+==================== */
+/* ====================
+     typography
+==================== */
+h1,
+h2,
+h3 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
 
+p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* ====================
+     layout
+==================== */
+/* ====================
+     links
+==================== */
+.navbar-collapse ul {
+  list-style: none;
+  padding-left: 0;
+}
+.navbar-collapse ul li {
+  border-bottom: 1px dotted #545454;
+  color: #545454;
+}
+.navbar-collapse ul li a {
+  color: #A4A4A4;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navbar-collapse ul li a:hover {
+  color: #fff;
+}
+
+/* ====================
+     images
+==================== */
+/* Desktop */
+.jumbotron {
+  background: url("/img/mobile-bg.jpg") no-repeat right bottom;
+  background-size: cover;
+  border-bottom: 1px dotted #545454;
+}
+
+/* ====================
+     responsive
+==================== */
+@media (min-width: 768px) {
+  /* desktop */
+  .jumbotron {
+    background: url("/img/jm-bio-pic.jpg") no-repeat right bottom;
+  }
+
+  .navbar-collapse ul li {
+    border-bottom: none;
+    display: inline-block;
+    margin-top: 15px;
+    padding-right: 25px;
+  }
+  .navbar-collapse ul li a {
+    line-height: 0;
+  }
+}
+@media (max-width: 768px) {
+  /* mobile-only */
+  .site-title {
+    margin-top: 40px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
