@@ -1,0 +1,121 @@
+/* ====================
+     global colors
+==================== */
+/* ====================
+     media queries
+==================== */
+/* ====================
+     typography
+==================== */
+h1,
+h2,
+h3 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+}
+
+.intro-text {
+  font-size: 15px !important;
+}
+
+.tech-category {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  padding: 2px 6px 0 5px;
+}
+
+/* ====================
+     links
+==================== */
+.navbar-collapse ul {
+  list-style: none;
+  padding-left: 0;
+}
+.navbar-collapse ul li {
+  border-bottom: 1px dotted #545454;
+  color: #545454;
+}
+.navbar-collapse ul li a {
+  color: #A4A4A4;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navbar-collapse ul li a:hover {
+  color: #fff;
+}
+
+/* ====================
+     images
+==================== */
+/* Desktop */
+.jumbotron {
+  background: url("/img/mobile-bg.jpg") no-repeat right top;
+  background-size: cover;
+  border-bottom: 1px dotted #545454;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+/* ====================
+     responsive
+==================== */
+@media (min-width: 768px) {
+  /* desktop */
+  .jumbotron {
+    background: url("/img/jm-bio-pic.jpg") no-repeat right bottom;
+    background-size: cover;
+    padding-top: 100px;
+  }
+
+  .navbar-collapse ul {
+    display: inline-block;
+  }
+  .navbar-collapse ul li {
+    border-bottom: none;
+    display: inline-block;
+    margin-top: 15px;
+    padding-right: 25px;
+  }
+  .navbar-collapse ul li a {
+    line-height: 0;
+  }
+
+  .intro-text {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .width-33 {
+    display: inline-block;
+    padding: 15px;
+    vertical-align: top;
+    width: 33%;
+  }
+}
+@media (max-width: 768px) {
+  /* mobile-only */
+  .site-title {
+    margin-top: 40px;
+  }
+
+  .width-33 {
+    padding: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .jumbotron {
+    background: url("/img/jm-bio-pic-@35.jpg") no-repeat right top;
+    background-size: cover;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
