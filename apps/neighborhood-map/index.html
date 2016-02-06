@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Neighborhood Map</title>
+
+        <link rel="shortcut icon" href="img/favicon.png" type='image/x-icon'>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="container">
+        <div class="row">
+            <!-- nav and map area -->
+            <div id="nav" class="col-md-9">
+                <!-- title -->
+                <div class="title_header"><h2>Neighborhood Map</h2></div>
+
+                <!-- mobile nav -->
+                <div class="mobile_nav">
+                    <div id="hamburger" class="content fa fa-bars fa-2x hidden-md hidden-lg"></div>
+                    <div class="list_content is_hidden content">
+                        <div class="search_mobile content">
+                            <h3 data-bind="text: place"></h3>
+                            <form data-bind="submit: filter">
+                                <input type="search" class="form-control map_api_search" placeholder="refine the results" maxlength="25" data-bind="textInput: refresh()">
+                                <button type="submit" class="btn btn-primary">
+                                Filter&ensp;<span class="fa fa-filter"></span>
+                                </button>
+                                <button type="button" class="btn btn-warning" data-bind="click: reset">
+                                    Reset&ensp;<span class="fa fa-repeat"></span>
+                                </button>
+                                <p data-bind="text: entryStatus" class="text-warning has_warning"></p>
+                            </form>
+                        </div><!--/the search form -->
+
+                        <!-- search results -->
+                        <div id="mobile_results" class="results_content content">
+                            <ul class="places" data-bind="foreach: currentLabels">
+                                <li class="results_item" data-bind="text: $data, click: $parent.infoWindow"></li>
+                            </ul>
+                        </div><!-- /results -->
+                    </div>
+                </div><!-- /mobile nav -->
+
+                <!-- map -->
+                <div class="map_api">
+                    <pre data-bind="text: status" class="text-warning has_warning status text-danger">connection error</pre>
+                    <!-- Google Maps -->
+                    <div id="map"></div>
+                </div>
+            </div><!-- /nav and map area -->
+
+            <!-- search and locations -->
+            <div id="search" class="col-md-3">
+
+                <div class="map_search visible-md-block visible-lg-block">
+                    <!-- the search form -->
+                    <div class="search_desktop content ">
+                        <h3 data-bind="text: place"></h3>
+                        <form data-bind="submit: filter">
+                            <input type="search" class="form-control map_api_search" placeholder="refine the results" maxlength="25" data-bind="textInput: refresh()">
+                            <button type="submit" class="btn btn-primary">
+                                Filter&ensp;<span class="fa fa-filter"></span>
+                            </button>
+                            <button type="button" class="btn btn-warning" data-bind="click: reset">
+                                Reset&ensp;<span class="fa fa-repeat"></span>
+                            </button>
+                            <p data-bind="text: entryStatus" class="text-warning has_warning"></p>
+                        </form>
+                    </div><!--/the search form -->
+
+                    <!-- search results -->
+                    <div class="results_content">
+                        <ul class="places" data-bind="foreach: currentLabels">
+                            <li class="results_item" data-bind="text: $data, click: $parent.infoWindow"></li>
+                        </ul>
+                    </div><!-- /results -->
+                </div>
+            </div><!-- /search and locations -->
+        </div><!-- /row -->
+
+        <!-- html targets and keys -->
+        <script>
+            var neighborhoodMapTargets = {
+                mapDiv: document.getElementById('map'),
+                moreButton: document.getElementsByClassName('more')
+            };
+
+            function initApp() {
+                ko.applyBindings(viewModel);
+                viewModel.init();
+            }
+        </script><!-- /targets and keys-->
+
+        <script src="js/lib/jquery-1.11.3.min.js"></script>
+        <script src="js/lib/bootstrap.min.js"></script>
+        <script src="js/lib/knockout-3.4.0.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_-j4VDXLK3zJdRuS3kptvaUZUfKCZos4&amp;callback=initApp" async defer></script>
+        <script src="js/functions.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -30,10 +30,15 @@ p {
     font-weight: 400;
 }
 
+.intro-text {
+    font-size: 15px !important;
+}
+
 
 /* ====================
      layout
 ==================== */
+
 
 
 /* ====================
@@ -67,7 +72,7 @@ p {
 ==================== */
 /* Desktop */
     .jumbotron {
-        background: url('/img/mobile-bg.jpg') no-repeat right bottom;
+        background: url('/img/mobile-bg.jpg') no-repeat right top;
         background-size: cover;
         border-bottom: 1px dotted $gry;
     }
@@ -79,6 +84,8 @@ p {
     /* desktop */
     .jumbotron {
         background: url('/img/jm-bio-pic.jpg') no-repeat right bottom;
+        background-size: cover;
+        padding-top: 100px;
     }
 
     .navbar-collapse {
@@ -95,6 +102,10 @@ p {
                 }
             }
         }
+    }
+
+    .intro-text {
+        width: 60%;
     }
 }
 

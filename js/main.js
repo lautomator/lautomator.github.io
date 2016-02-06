@@ -2,6 +2,7 @@ var data = {
     // site data
     name: 'John Merigliano',
     role: 'Full Stack Web Developer',
+    intro: 'I am a multifaceted web applications developer and coder. My 10+ years experience in the industry have provided me with a scope of experience that is unique and robust. I continue to perfect my skills as a web programmer through ongoing education and engagement with the web development community.',
     urls: [
         {
             name: 'apps',
@@ -41,7 +42,7 @@ var data = {
             description: 'Keep track of things and write journal entries.',
             repoURL: 'https://github.com/lautomator/collections',
             projectURL: '',
-            projectImage: 'img/',
+            projectImage: 'img/collections-login.png',
             tech: [
                 'Python',
                 'Django',
@@ -56,7 +57,7 @@ var data = {
             description: 'This is a single page application featuring a map of restaurant locations in my area. Additional functionality includes highlighted locations, third-party data about those locations and various ways to browse the content. Some of those include filtering results and getting additional info from the map markers.',
             repoURL: 'https://github.com/lautomator/udacity-fe-nano/tree/master/P5',
             projectURL: 'apps/neighborhood-map/',
-            projectImage: 'img/mw-01.png',
+            projectImage: 'img/neighborhood-map.jpg',
             tech: [
                 'HTML5',
                 'CSS',
@@ -76,7 +77,9 @@ var data = {
             tech: [
                 'HTML5',
                 'CSS',
-                'JavaScript'
+                'Sass',
+                'JavaScript',
+                'MVC'
             ]
         },
         {
@@ -84,13 +87,14 @@ var data = {
             year: '2015',
             description: 'Project created as part of coursework for Udacity\'s Web Development Course. The site is created using Python and Google App Engine; Users can create their own account and make Wiki pages that include images and HTML formatting.',
             repoURL: 'https://github.com/lautomator/my_wiki',
-            projectURL: 'http://t-decoder-840.appspot.com/login',
-            projectImage: 'img/mw-01.png',
+            projectURL: 'http://t-decoder-840.appspot.com/',
+            projectImage: 'img/my-wiki.jpg',
             tech: [
                 'Python',
                 'Google App Engine',
                 'HTML5',
                 'CSS',
+                'jQuery',
                 'Jinja Templates'
             ]
         },
@@ -100,7 +104,7 @@ var data = {
             description: 'This project was created, in part, to fulfill the requirements of my Udacity Web Developer Nano Degree. It uses a game engine and object oriented programming.',
             repoURL: 'https://github.com/lautomator/my_wiki',
             projectURL: 'apps/frogger',
-            projectImage: 'img/mw-01.png',
+            projectImage: 'img/frogger.gif',
             tech: [
                 'HTML5',
                 'CSS',
@@ -113,7 +117,7 @@ var data = {
             description: 'This is the website for Tibetan Mandala artist, Losang Samten.',
             repoURL: 'https://bitbucket.org/lautomator/losang-samten-website/',
             projectURL: 'http://www.losangsamten.com/',
-            projectImage: 'img/mw-01.png',
+            projectImage: 'img/samten-site.jpg',
             tech: [
                 'HTML5',
                 'CSS',
@@ -122,7 +126,7 @@ var data = {
             ]
         }
     ],
-    resume: 'files/merigliano_resume_09_2015_sans.pdf',
+    resume: 'files/merigliano_resume_02_2016_sans.pdf',
     status: 'getting data ...'
 };
 

@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="This website contains some of my work as a full stack web developer.">
         <meta name="author" content="John Merigliano">
-        <link rel="icon" href="img/o-favicon.png">
+        <link rel="icon" href="img/tennis-favicon.png">
 
         <title>John Merigliano : Full Stack Web Developer</title>
 
@@ -62,8 +62,8 @@
             <div class="container">
                 <h2 class="site-title" data-bind="text: siteData().name"></h2>
                 <h3 data-bind="text: siteData().role"></h3>
-                <p>Some text could go here...</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+                <p class="intro-text" data-bind="text: siteData().intro"></p>
+                <p><a class="btn btn-primary btn-lg" role="button" target="_blank" data-bind="attr: {href: siteData().resume}">my r&eacute;sum&eacute; &raquo;</a></p>
             </div>
         </div><!-- /main -->
 
@@ -75,7 +75,7 @@
                     <p data-bind="text: year"></h4>
                     <p data-bind="text: description"></p>
                     <p data-bind="foreach: tech"><span class="tech-category" data-bind="text: $data"></span></p>
-                    <p><img class="img-responsive" data-bind="attr: {src: projectImage, alt: name}"></p>
+                    <p><a target="_blank" data-bind="attr: {href: projectURL, title: name}"><img class="img-responsive" data-bind="attr: {src: projectImage, alt: name}"></a></p>
                     <p>
                         <!-- fork -->
                         <a data-bind="attr: {href: repoURL, title: name}," target="_blank"><span class="fa fa-code-fork fa-2x"></span></a>

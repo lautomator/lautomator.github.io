@@ -1,0 +1,138 @@
+/* ------
+ * layout
+ * ------ */
+
+.container {
+    max-width: 1200px;
+}
+
+.row {
+    background: #e9e5dc;
+}
+
+#nav,
+#search,
+#map {
+    padding: 0;
+}
+
+.content {
+    padding: 10px;
+    width: 100%;
+}
+
+.title_header {
+    color: #608ac7;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+.map_search {
+    background: #212121;
+    color: #a0a0a0;
+    height: 100%;
+    padding-left: 0 !important;
+}
+
+.mobile_nav {
+    background: #212121;
+    color: #608ac7;
+    height: 50px;
+}
+
+.map_api {
+    padding: 0;
+    width: 100%;
+}
+.map_api .has_warning {
+    margin: 25px;
+}
+
+.list_content {
+    background: #212121;
+    left: 0;
+    line-height: 25px;
+    opacity: 0.8;
+    position: absolute;
+    top: 50px;
+    z-index: 999;
+}
+
+.more {
+    margin: 10px;
+}
+
+.status {
+    position: absolute;
+    right: 0;
+    z-index: 100;
+}
+
+/* -----------
+ * interactive
+ * ----------- */
+
+.is_hidden {
+    display: none;
+}
+
+button {
+    margin: 10px 0;
+}
+
+/* ----------
+ * typography
+ * ---------- */
+
+h2,
+h3 {
+    margin-top: 0;
+}
+
+h4 {
+    padding: 5px 7px;
+}
+
+input {
+    font-style: italic;
+}
+
+ul li {
+    list-style: none;
+}
+
+.has_warning {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.results_item {
+    cursor: pointer;
+    line-height: 35px;
+}
+
+.results_item:hover {
+    background: #212121;
+    color: #fff;
+}
+
+.results_content ul {
+    padding-left: 0;
+}
+
+.results_content li {
+    padding-left: 10px;
+}
+
+/* ----------
+ * responsive
+ * ---------- */
+
+ /* desktop */
+ @media (min-width: 992px) {
+    .results_content {
+        background-color: #212121;
+        height: 100%;
+    }
+ }
