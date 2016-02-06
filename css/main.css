@@ -23,9 +23,13 @@ p {
   font-size: 15px !important;
 }
 
-/* ====================
-     layout
-==================== */
+.tech-category {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0 5px 5px 0;
+  padding: 2px 6px 0 5px;
+}
+
 /* ====================
      links
 ==================== */
@@ -55,6 +59,10 @@ p {
   background: url("/img/mobile-bg.jpg") no-repeat right top;
   background-size: cover;
   border-bottom: 1px dotted #545454;
+}
+
+img:hover {
+  opacity: 0.5;
 }
 
 /* ====================
@@ -101,6 +109,12 @@ p {
 
   .width-33 {
     padding: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .jumbotron {
+    background: url("/img/jm-bio-pic-@35.jpg") no-repeat right top;
+    background-size: cover;
   }
 }
 

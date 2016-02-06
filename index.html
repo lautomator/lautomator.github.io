@@ -46,7 +46,7 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul data-bind="foreach: pages()">
-                        <li><a data-bind="attr: {href: url, title: name}, text: name"></a></li>
+                        <li><a class="nav-link" data-bind="attr: {href: url, title: name}, text: name"></a></li>
                     </ul>
 
                     <!-- social media -->
@@ -63,13 +63,14 @@
                 <h2 class="site-title" data-bind="text: siteData().name"></h2>
                 <h3 data-bind="text: siteData().role"></h3>
                 <p class="intro-text" data-bind="text: siteData().intro"></p>
-                <p><a class="btn btn-primary btn-lg" role="button" target="_blank" data-bind="attr: {href: siteData().resume}">my r&eacute;sum&eacute; &raquo;</a></p>
+                <p><a class="btn btn-default btn-sm" role="button" target="_blank" data-bind="attr: {href: siteData().resume}">my r&eacute;sum&eacute; &raquo;</a></p>
             </div>
         </div><!-- /main -->
 
-        <div class="container">
-            <!-- apps -->
-            <div id="apps" class="row" data-bind="foreach: projects()">
+        <div class="container" id="projects">
+            <!-- projects -->
+            <h3>Projects</h3>
+            <div class="row" data-bind="foreach: projects()">
                 <div class="width-33">
                     <!-- img -->
                     <p><a target="_blank" data-bind="attr: {href: projectURL, title: name}"><img class="img-responsive" data-bind="attr: {src: projectImage, alt: name}"></a></p>
@@ -77,19 +78,19 @@
 
                     <!-- txt -->
                     <h3 data-bind="text: name"></h3>
-                    <p data-bind="text: year"></h4>
+                    <p data-bind="text: year"></p>
                     <p data-bind="text: description"></p>
-                    <p data-bind="foreach: tech"><span class="tech-category" data-bind="text: $data"></span></p>
+                    <p data-bind="foreach: tech"><span class="tech-category bg-info" data-bind="text: $data"></span></p>
 
                     <!-- repos and staging -->
                     <p>
-                        <!-- fork -->
-                        <a data-bind="attr: {href: repoURL, title: name}," target="_blank"><span class="fa fa-code-fork fa-2x"></span></a>
+                        <!-- repo -->
+                        <a data-bind="attr: {href: repoURL, title: name}," target="_blank"><span data-bind="attr: {class: repoBadge}"></span></a>
                         <!-- view site -->
                         <a data-bind="attr: {href: projectURL, title: name}," target="_blank"><span class="fa fa-arrow-circle-right fa-2x"></span></a>
                     </p>
                 </div>
-            </div>
+            </div><!-- /projects -->
 
             <hr>
 
@@ -97,22 +98,15 @@
             <div id="resume" class="row">
                 <div class="col-md-12">
                     <h3>R&eacute;sum&eacute;</h3>
-                    <p>Please view my r&eacute;sum&eacute;: <a target="_blank" data-bind="attr: {href: siteData().resume}">pdf</a></p>
+                    <p>pdf format</p>
+                    <p><a target="_blank" data-bind="attr: {href: siteData().resume}"><span class="fa fa-file-text fa-3x"></span></a></p>
                 </div>
             </div><!-- /resume -->
 
             <hr>
 
-            <!-- contact -->
-            <div id="contact" class="row">
-                <div class="col-md-12">
-                    <h3>Contact</h3>
-                    <p>Contact me...</p>
-                </div>
-            </div><!-- /resume -->
-
             <footer>
-                <p>&copy; <span data-bind="text: getDate()"></span></p>
+                <p>&copy;&nbsp;<span data-bind="text: getDate()"></span>&nbsp;<span data-bind="text: siteData().name"></span></p>
             </footer>
         </div> <!-- /container -->
 

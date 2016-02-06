@@ -2,21 +2,16 @@ var data = {
     // site data
     name: 'John Merigliano',
     role: 'Full Stack Web Developer',
-    intro: 'I am a multifaceted web applications developer and coder. My 10+ years experience in the industry have provided me with a scope of experience that is unique and robust. I continue to perfect my skills as a web programmer through ongoing education and engagement with the web development community.',
+    intro: 'I am a multifaceted web applications developer and coder. My 10+ years experience in the industry have given me a unique and robust scope. I continue to perfect my skills as a web programmer through ongoing education and engagement with the web development community.',
     urls: [
         {
-            name: 'apps',
-            url: 'index.html#apps',
+            name: 'projects',
+            url: 'index.html#projects',
             cat: 'nav'
         },
         {
             name: 'resume',
             url: 'index.html#resume',
-            cat: 'nav'
-        },
-        {
-            name: 'contact',
-            url: 'index.html#contact',
             cat: 'nav'
         },
         {
@@ -41,6 +36,7 @@ var data = {
             year: '2016',
             description: 'Keep track of things and write journal entries.',
             repoURL: 'https://github.com/lautomator/collections',
+            repoBadge: 'fa fa-git-square fa-2x',
             projectURL: '',
             projectImage: 'img/collections-login.png',
             tech: [
@@ -56,8 +52,9 @@ var data = {
             year: '2016',
             description: 'This is a single page application featuring a map of restaurant locations in my area. Additional functionality includes highlighted locations, third-party data about those locations and various ways to browse the content. Some of those include filtering results and getting additional info from the map markers.',
             repoURL: 'https://github.com/lautomator/udacity-fe-nano/tree/master/P5',
+            repoBadge: 'fa fa-git-square fa-2x',
             projectURL: 'apps/neighborhood-map/',
-            projectImage: 'img/hood-map.jpg',
+            projectImage: 'img/neighborhood-map.gif',
             tech: [
                 'HTML5',
                 'CSS',
@@ -72,6 +69,7 @@ var data = {
             year: '2015',
             description: 'This is a guessing game. This game is based on the classic Atari 2600 game of the same title. The object of the game is for the player to guess 3 numbers between 0 and 9 in the correct order. The game is written entirely in javaScript, HTML/CSS.',
             repoURL: 'https://github.com/lautomator/codebreaker',
+            repoBadge: 'fa fa-git-square fa-2x',
             projectURL: 'apps/codebreaker/',
             projectImage: 'img/cb-01.png',
             tech: [
@@ -87,6 +85,7 @@ var data = {
             year: '2015',
             description: 'Project created as part of coursework for Udacity\'s Web Development Course. The site is created using Python and Google App Engine; Users can create their own account and make Wiki pages that include images and HTML formatting.',
             repoURL: 'https://github.com/lautomator/my_wiki',
+            repoBadge: 'fa fa-git-square fa-2x',
             projectURL: 'http://t-decoder-840.appspot.com/',
             projectImage: 'img/my-wiki.jpg',
             tech: [
@@ -95,7 +94,7 @@ var data = {
                 'HTML5',
                 'CSS',
                 'jQuery',
-                'Jinja Templates'
+                'Jinja Templating'
             ]
         },
         {
@@ -103,6 +102,7 @@ var data = {
             year: '2015',
             description: 'This project was created, in part, to fulfill the requirements of my Udacity Web Developer Nano Degree. It uses a game engine and object oriented programming.',
             repoURL: 'https://github.com/lautomator/my_wiki',
+            repoBadge: 'fa fa-git-square fa-2x',
             projectURL: 'apps/frogger',
             projectImage: 'img/frogger.gif',
             tech: [
@@ -114,8 +114,9 @@ var data = {
         {
             name: 'Losang Samten Website',
             year: '2015',
-            description: 'This is the website for Tibetan Mandala artist, Losang Samten.',
+            description: 'This is the website for Tibetan Mandala artist, Losang Samten. It uses the Knockout JS MVC library.',
             repoURL: 'https://bitbucket.org/lautomator/losang-samten-website/',
+            repoBadge: 'fa fa-bitbucket-square fa-2x',
             projectURL: 'http://www.losangsamten.com/',
             projectImage: 'img/samten-site.jpg',
             tech: [
