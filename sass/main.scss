@@ -109,9 +109,22 @@ p {
     }
 }
 
+@media (min-width: $medium) {
+    .width-33 {
+        display: inline-block;
+        padding: 15px;
+        vertical-align: top;
+        width: 33%;
+    }
+}
+
 @media (max-width: $small) {
     /* mobile-only */
     .site-title {
         margin-top: 40px;
+    }
+
+    .width-33 {
+        padding: 15px;
     }
 }

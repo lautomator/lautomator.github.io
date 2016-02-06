@@ -57,14 +57,14 @@ var data = {
             description: 'This is a single page application featuring a map of restaurant locations in my area. Additional functionality includes highlighted locations, third-party data about those locations and various ways to browse the content. Some of those include filtering results and getting additional info from the map markers.',
             repoURL: 'https://github.com/lautomator/udacity-fe-nano/tree/master/P5',
             projectURL: 'apps/neighborhood-map/',
-            projectImage: 'img/neighborhood-map.jpg',
+            projectImage: 'img/hood-map.jpg',
             tech: [
                 'HTML5',
                 'CSS',
                 'jQuery',
                 'Knockout',
                 'FourSquare API',
-                'Google MAps API'
+                'Google Maps API'
             ]
         },
         {

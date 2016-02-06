@@ -68,14 +68,20 @@
         </div><!-- /main -->
 
         <div class="container">
-            <!-- Apps -->
+            <!-- apps -->
             <div id="apps" class="row" data-bind="foreach: projects()">
-                <div class="col-md-4">
+                <div class="width-33">
+                    <!-- img -->
+                    <p><a target="_blank" data-bind="attr: {href: projectURL, title: name}"><img class="img-responsive" data-bind="attr: {src: projectImage, alt: name}"></a></p>
+                    <p>
+
+                    <!-- txt -->
                     <h3 data-bind="text: name"></h3>
                     <p data-bind="text: year"></h4>
                     <p data-bind="text: description"></p>
                     <p data-bind="foreach: tech"><span class="tech-category" data-bind="text: $data"></span></p>
-                    <p><a target="_blank" data-bind="attr: {href: projectURL, title: name}"><img class="img-responsive" data-bind="attr: {src: projectImage, alt: name}"></a></p>
+
+                    <!-- repos and staging -->
                     <p>
                         <!-- fork -->
                         <a data-bind="attr: {href: repoURL, title: name}," target="_blank"><span class="fa fa-code-fork fa-2x"></span></a>
@@ -83,11 +89,27 @@
                         <a data-bind="attr: {href: projectURL, title: name}," target="_blank"><span class="fa fa-arrow-circle-right fa-2x"></span></a>
                     </p>
                 </div>
-
-                <hr class="hidden-md hidden-lg">
             </div>
 
             <hr>
+
+            <!-- resume -->
+            <div id="resume" class="row">
+                <div class="col-md-12">
+                    <h3>R&eacute;sum&eacute;</h3>
+                    <p>Please view my r&eacute;sum&eacute;: <a target="_blank" data-bind="attr: {href: siteData().resume}">pdf</a></p>
+                </div>
+            </div><!-- /resume -->
+
+            <hr>
+
+            <!-- contact -->
+            <div id="contact" class="row">
+                <div class="col-md-12">
+                    <h3>Contact</h3>
+                    <p>Contact me...</p>
+                </div>
+            </div><!-- /resume -->
 
             <footer>
                 <p>&copy; <span data-bind="text: getDate()"></span></p>
