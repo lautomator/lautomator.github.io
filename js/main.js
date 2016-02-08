@@ -37,7 +37,7 @@ var data = {
             description: 'Keep track of things and write journal entries.',
             repoURL: 'https://github.com/lautomator/collections',
             repoBadge: 'fa fa-git-square fa-2x',
-            projectURL: '',
+            projectURL: 'https://github.com/lautomator/collections',
             projectImage: 'img/collections-login.png',
             tech: [
                 'Python',
