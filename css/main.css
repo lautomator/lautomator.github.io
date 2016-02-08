@@ -72,8 +72,7 @@ img:hover {
   /* desktop */
   .jumbotron {
     background: url("/img/jm-bio-pic.jpg") no-repeat right bottom;
-    background-size: cover;
-    padding-top: 100px;
+    background-size: contain;
   }
 
   .navbar-collapse ul {
