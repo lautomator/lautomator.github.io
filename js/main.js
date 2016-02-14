@@ -127,7 +127,7 @@ var data = {
             ]
         }
     ],
-    resume: 'files/merigliano_resume_02_2016_sans.pdf',
+    resume: 'files/merigliano_resume_02_2016_sans_v2.pdf',
     status: 'getting data ...'
 };
 
@@ -185,7 +185,6 @@ var viewModel = {
         this.siteData(data);
         // define status
         this.pageStatus(data.status);
-        console.log(this.pageStatus());
         // deifne the navigation
         this.pages(this.getNav(data.urls));
         // define the social media badges
