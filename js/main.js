@@ -32,22 +32,6 @@ var data = {
     ],
     projects: [
         {
-            name: 'Collections',
-            year: '2016',
-            description: 'Keep track of things and write journal entries.',
-            repoURL: 'https://github.com/lautomator/collections',
-            repoBadge: 'fa fa-git-square fa-2x',
-            projectURL: 'https://github.com/lautomator/collections',
-            projectImage: 'img/collections-login.png',
-            tech: [
-                'Python',
-                'Django',
-                'HTML5',
-                'CSS',
-                'PostgreSQL'
-            ]
-        },
-        {
             name: 'Neighborhood Map',
             year: '2016',
             description: 'This is a single page application featuring a map of restaurant locations in my area. Additional functionality includes highlighted locations, third-party data about those locations and various ways to browse the content. Some of those include filtering results and getting additional info from the map markers.',
@@ -78,6 +62,22 @@ var data = {
                 'Sass',
                 'JavaScript',
                 'MVC'
+            ]
+        },
+        {
+            name: 'Collections',
+            year: '2016',
+            description: 'Keep track of things and write journal entries.',
+            repoURL: 'https://github.com/lautomator/collections',
+            repoBadge: 'fa fa-git-square fa-2x',
+            projectURL: 'https://github.com/lautomator/collections',
+            projectImage: 'img/collections-login.png',
+            tech: [
+                'Python',
+                'Django',
+                'HTML5',
+                'CSS',
+                'PostgreSQL'
             ]
         },
         {
@@ -112,6 +112,19 @@ var data = {
             ]
         },
         {
+            name: 'Cycle Plus One',
+            year: '2016',
+            description: '[IN DEVELOPMENT] Cycle Plus One is a musical pattern generator that can be used to explore interesting sonic experiences. Using a fixed rhythmic profile, a steady eighth note pulse, you can experiment with tonality and density within a specified cycle of beats. The application can help composers create a matrix of tones that can be exported as MIDI or musical XML. From there, the material can be worked with further in a sequencing or music notation program. Cycle Plus One is meant to be a starting point for experimentation, allowing the composer to play with variation using a minimal amount of musical material.',
+            repoURL: 'https://sourceforge.net/p/cycle-plus-one/code/ci/master/tree/',
+            repoBadge: 'fa fa-git-square fa-2x',
+            projectURL: 'https://sourceforge.net/projects/cycle-plus-one/',
+            projectImage: 'img/cycle_plus_one_icon.jpg',
+            tech: [
+                'Python',
+                'GUI'
+            ]
+        },
+        {
             name: 'Losang Samten Website',
             year: '2015',
             description: 'This is the website for Tibetan Mandala artist, Losang Samten. It uses the Knockout JS MVC library.',
@@ -125,7 +138,22 @@ var data = {
                 'jQuery',
                 'Knockout'
             ]
-        }
+        },
+        {
+            name: 'Image Controller MVC Demo',
+            year: '2016',
+            description: 'This is an MVC design pattern demo using Knockout.',
+            repoURL: 'https://github.com/lautomator/image-controller-mvc',
+            repoBadge: 'fa fa-git-square fa-2x',
+            projectURL: 'http://23.92.19.42/',
+            projectImage: 'img/image-mvc.png',
+            tech: [
+                'HTML5',
+                'CSS',
+                'jQuery',
+                'Knockout'
+            ]
+        },
     ],
     resume: 'files/merigliano_resume_02_2016_sans_v2.pdf',
     status: 'getting data ...'
