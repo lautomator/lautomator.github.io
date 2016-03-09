@@ -118,7 +118,7 @@ var data = {
             repoURL: 'https://sourceforge.net/p/cycle-plus-one/code/ci/master/tree/',
             repoBadge: 'fa fa-git-square fa-2x',
             projectURL: 'https://sourceforge.net/projects/cycle-plus-one/',
-            projectImage: 'img/cycle_plus_one_icon.jpg',
+            projectImage: 'img/cycle_plus_one_icon_alt.jpg',
             tech: [
                 'Python',
                 'GUI'
