@@ -112,19 +112,6 @@ var data = {
             ]
         },
         {
-            name: 'Cycle Plus One',
-            year: '2016',
-            description: '[IN DEVELOPMENT] Cycle Plus One is a musical pattern generator that can be used to explore interesting sonic experiences. Using a fixed rhythmic profile, a steady eighth note pulse, you can experiment with tonality and density within a specified cycle of beats. The application can help composers create a matrix of tones that can be exported as MIDI or musical XML. From there, the material can be worked with further in a sequencing or music notation program. Cycle Plus One is meant to be a starting point for experimentation, allowing the composer to play with variation using a minimal amount of musical material.',
-            repoURL: 'https://sourceforge.net/p/cycle-plus-one/code/ci/master/tree/',
-            repoBadge: 'fa fa-git-square fa-2x',
-            projectURL: 'https://sourceforge.net/projects/cycle-plus-one/',
-            projectImage: 'img/cycle_plus_one_icon_alt.jpg',
-            tech: [
-                'Python',
-                'GUI'
-            ]
-        },
-        {
             name: 'Losang Samten Website',
             year: '2015',
             description: 'This is the website for Tibetan Mandala artist, Losang Samten. It uses the Knockout JS MVC library.',
@@ -154,6 +141,19 @@ var data = {
                 'Knockout'
             ]
         },
+        {
+            name: 'Cycle Plus One',
+            year: '2016',
+            description: '[IN DEVELOPMENT] Cycle Plus One is a musical pattern generator that can be used to explore interesting sonic experiences. Using a fixed rhythmic profile, a steady eighth note pulse, you can experiment with tonality and density within a specified cycle of beats. The application can help composers create a matrix of tones that can be exported as MIDI or musical XML. From there, the material can be worked with further in a sequencing or music notation program. Cycle Plus One is meant to be a starting point for experimentation, allowing the composer to play with variation using a minimal amount of musical material.',
+            repoURL: 'https://sourceforge.net/p/cycle-plus-one/code/ci/master/tree/',
+            repoBadge: 'fa fa-git-square fa-2x',
+            projectURL: 'https://sourceforge.net/projects/cycle-plus-one/',
+            projectImage: 'img/cycle_plus_one_icon_alt.jpg',
+            tech: [
+                'Python',
+                'GUI'
+            ]
+        }
     ],
     resume: 'files/merigliano_resume_02_2016_sans_v2.pdf',
     status: 'getting data ...'
