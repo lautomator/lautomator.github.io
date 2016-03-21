@@ -106,6 +106,7 @@ var data = {
             projectURL: 'apps/frogger',
             projectImage: 'img/frogger.gif',
             tech: [
+                'JavaScript',
                 'HTML5',
                 'CSS',
                 'jQuery'
@@ -124,6 +125,20 @@ var data = {
                 'CSS',
                 'jQuery',
                 'Knockout'
+            ]
+        },
+                {
+            name: 'Mia Johnson: Musician Website',
+            year: '2014',
+            description: 'This is the website for Mia Johnson, a Philadelphia-based singer/songwriter. The site uses a modified Wordpress theme.',
+            repoURL: '',
+            repoBadge: '',
+            projectURL: 'http://miajohnson.net/',
+            projectImage: 'img/mia-site.png',
+            tech: [
+                'Wordpress',
+                'PHP',
+                'CSS'
             ]
         },
         {
