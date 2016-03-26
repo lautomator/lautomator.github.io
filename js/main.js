@@ -147,7 +147,7 @@ var data = {
             description: "This is an MVC design pattern demo using Knockout. The purpose of this implementation is to show how Knockout's observables by default create the separation of concerns between the object being acted upon and the logic behind it. Using Knockout is a good introduction into using the MVC design pattern.",
             repoURL: 'https://github.com/lautomator/image-controller-mvc',
             repoBadge: 'fa fa-git-square fa-2x',
-            projectURL: 'http://23.92.19.42/',
+            projectURL: 'http://lautomator.github.io/image-controller-mvc',
             projectImage: 'img/image-mvc.png',
             tech: [
                 'HTML5',
@@ -159,7 +159,7 @@ var data = {
         {
             name: 'Cycle Plus One',
             year: '2016',
-            description: '[IN DEVELOPMENT] Cycle Plus One is a musical pattern generator that can be used to explore interesting sonic experiences. Using a fixed rhythmic profile, a steady eighth note pulse, you can experiment with tonality and density within a specified cycle of beats. The application can help composers create a matrix of tones that can be exported as MIDI or musical XML. From there, the material can be worked with further in a sequencing or music notation program. Cycle Plus One is meant to be a starting point for experimentation, allowing the composer to play with variation using a minimal amount of musical material.',
+            description: '[ALPHA: IN DEVELOPMENT] Cycle Plus One is a musical pattern generator (sequencer) that can be used to explore interesting sonic experiences. Using a fixed rhythmic profile, a steady eighth note pulse, you can experiment with tonality and density within a specified cycle of beats. The application can help composers create a matrix of tones that can be exported as MIDI or musical XML. From there, the material can be worked with further in a sequencing or music notation program. Cycle Plus One is meant to be a starting point for experimentation, allowing the composer to play with variation using a minimal amount of musical material.',
             repoURL: 'https://sourceforge.net/p/cycle-plus-one/code/ci/master/tree/',
             repoBadge: 'fa fa-git-square fa-2x',
             projectURL: 'https://sourceforge.net/projects/cycle-plus-one/',
