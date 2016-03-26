@@ -147,7 +147,7 @@ var data = {
             description: "This is an MVC design pattern demo using Knockout. The purpose of this implementation is to show how Knockout's observables by default create the separation of concerns between the object being acted upon and the logic behind it. Using Knockout is a good introduction into using the MVC design pattern.",
             repoURL: 'https://github.com/lautomator/image-controller-mvc',
             repoBadge: 'fa fa-git-square fa-2x',
-            projectURL: 'http://lautomator.github.io/image-controller-mvc',
+            projectURL: 'http://lautomator.github.io/apps/image-controller-mvc',
             projectImage: 'img/image-mvc.png',
             tech: [
                 'HTML5',
