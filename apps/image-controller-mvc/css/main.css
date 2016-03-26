@@ -1,0 +1,47 @@
+.container {
+    border: dotted 1px gray;
+    margin-top: 25px;
+    max-width: 450px;
+    /*overflow: hidden;*/
+}
+
+.background_pattern {
+    background: url(../img/transparency-grid.gif) repeat;
+}
+
+.image_holder {
+    max-width: 450px;
+}
+
+.controller {
+    border-bottom: dotted 1px gray;
+    padding: 25px;
+}
+
+.controller:last-of-type {
+  border-bottom: 0;
+}
+
+.source_image {
+    opacity: 1;
+}
+
+.is_grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+hr {
+    margin: 0;
+}
+
+@media (min-width: 993px) {
+    .controller {
+        border-right: dotted 1px gray;
+        border-bottom: 0;
+    }
+
+    .controller:last-of-type {
+      border-right: 0;
+    }
+}
