@@ -101,7 +101,7 @@ var data = {
             name: 'Frogger!',
             year: '2015',
             description: 'This project was created, in part, to fulfill the requirements of my Udacity Web Developer Nano Degree. It uses a game engine and object oriented programming.',
-            repoURL: 'https://github.com/lautomator/my_wiki',
+            repoURL: 'https://github.com/lautomator/lautomator.github.io/tree/master/apps/frogger',
             repoBadge: 'fa fa-git-square fa-2x',
             projectURL: 'apps/frogger',
             projectImage: 'img/frogger.gif',
