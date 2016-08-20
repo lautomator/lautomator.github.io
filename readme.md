@@ -1,7 +1,7 @@
 # John Merigliano
-### Front End Web Developer
+### Full Stack Web Developer
 
-These are the source files for my personal website: John Merigliano, Front End Web Developer. The site showcases my skills as a web developer and programmer.
+These are the source files for my personal website: John Merigliano, Full Stack Web Developer. The site showcases my skills as a web developer and programmer.
 
 The live site is here: [http://lautomator.github.io/](http://lautomator.github.io/).
 
