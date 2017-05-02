@@ -2,18 +2,18 @@ var data = {
     // site data
     name: 'John Merigliano',
     role: 'Full Stack Web Developer',
-    intro: 'I am a multifaceted web applications developer. My 10+ years experience in the industry have given me a unique and robust scope. I continue to perfect my skills as a web programmer through ongoing education and engagement with the web development community.',
+    intro: 'Web Developer @TheFIREorg.',
     urls: [
         {
             name: 'projects',
             url: 'index.html#projects',
             cat: 'nav'
         },
-        {
-            name: 'resume',
-            url: 'index.html#resume',
-            cat: 'nav'
-        },
+        // {
+        //     name: 'resume',
+        //     url: 'index.html#resume',
+        //     cat: 'nav'
+        // },
         {
             name: 'linkedin',
             url: 'https://www.linkedin.com/in/johnmerigliano',
