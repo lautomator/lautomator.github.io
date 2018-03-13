@@ -168,6 +168,20 @@ var data = {
                 'Python',
                 'GUI'
             ]
+        },
+        {
+            name: 'Calculator',
+            year: '2018',
+            description: 'This is a simple calculator. You can employ basic math functions. You can also add console output to memory to use later. The application demonstrates a Model View Controller (MVC) design pattern.',
+            repoURL: 'https://github.com/lautomator/calculator',
+            repoBadge: 'fa fa-git-square fa-2x',
+            projectURL: 'http://lautomator.github.io/apps/calculator/',
+            projectImage: 'img/calc-cropped.png',
+            tech: [
+                'HTML5',
+                'CSS',
+                'JavaScript'
+            ]
         }
     ],
     resume: 'files/merigliano_resume_02_2016_sans_v2.pdf',

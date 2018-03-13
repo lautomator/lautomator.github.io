@@ -25,5 +25,6 @@ These are the applications or websites showcased on this site:
 * Losang Samten Website
 * Mia Johnson Website
 * Cycle Plus One (music sequencer: ALPHA)
+* Calculator
 
 For more information on these, go to the site.
