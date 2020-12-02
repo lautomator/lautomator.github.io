@@ -26,20 +26,31 @@ export const siteData = {
 
 export const ProjectData = [
     {
-        name: 'Neighborhood Map',
-        year: '2016',
-        description: 'This is a single page application featuring a map of restaurant locations in my area. Additional functionality includes highlighted locations, third-party data about those locations and various ways to browse the content. Some of those include filtering results and getting additional info from the map markers.',
-        repoURL: 'https://github.com/lautomator/udacity-fe-nano/tree/master/P5',
+        name: 'Calculator',
+        year: '2018',
+        description: 'This is a simple calculator. You can employ basic math functions. You can also add console output to memory to use later. The application demonstrates a Model View Controller (MVC) design pattern.',
+        repoURL: 'https://github.com/lautomator/calculator',
         repoBadge: 'fa fa-git-square fa-2x',
-        projectURL: 'apps/neighborhood-map/',
-        projectImage: 'img/neighborhood-map.gif',
+        projectURL: 'http://lautomator.github.io/apps/calculator/',
+        projectImage: 'img/calc-cropped.png',
         tech: [
             'HTML5',
             'CSS',
-            'jQuery',
-            'Knockout',
-            'FourSquare API',
-            'Google Maps API'
+            'JavaScript'
+        ]
+    },
+    {
+        name: 'Some Cards',
+        year: '2017',
+        description: 'I heard you wanted some cards. Well, here ya go! This simple web app prompts users to enter the number of cards they want dealt from a standard deck of 52 cards. The backend uses native javascript.',
+        repoURL: 'https://github.com/lautomator/some-cards/',
+        repoBadge: 'fa fa-git-square fa-2x',
+        projectURL: 'http://lautomator.github.io/apps/some-cards/',
+        projectImage: 'img/some-cards.png',
+        tech: [
+            'HTML5',
+            'CSS',
+            'Javascript'
         ]
     },
     {
@@ -48,7 +59,7 @@ export const ProjectData = [
         description: 'This is a guessing game. This game is based on the classic Atari 2600 game of the same title. The object of the game is for the player to guess 3 numbers between 0 and 9 in the correct order. The game is written entirely in javaScript, HTML/CSS.',
         repoURL: 'https://github.com/lautomator/codebreaker',
         repoBadge: 'fa fa-git-square fa-2x',
-        projectURL: 'apps/codebreaker/',
+        projectURL: 'http://lautomator.github.io/apps/codebreaker/',
         projectImage: 'img/cb-01.png',
         tech: [
             'HTML5',
@@ -56,22 +67,6 @@ export const ProjectData = [
             'Sass',
             'JavaScript',
             'MVC'
-        ]
-    },
-    {
-        name: 'Collections',
-        year: '2016',
-        description: 'Keep track of things and write journal entries.',
-        repoURL: 'https://github.com/lautomator/collections',
-        repoBadge: 'fa fa-git-square fa-2x',
-        projectURL: 'https://github.com/lautomator/collections',
-        projectImage: 'img/collections-login.png',
-        tech: [
-            'Python',
-            'Django',
-            'HTML5',
-            'CSS',
-            'PostgreSQL'
         ]
     },
     {
@@ -97,42 +92,13 @@ export const ProjectData = [
         description: 'This project was created, in part, to fulfill the requirements of my Udacity Web Developer Nano Degree. It uses a game engine and object oriented programming.',
         repoURL: 'https://github.com/lautomator/lautomator.github.io/tree/master/apps/frogger',
         repoBadge: 'fa fa-git-square fa-2x',
-        projectURL: 'apps/frogger',
+        projectURL: 'http://lautomator.github.io/apps/frogger',
         projectImage: 'img/frogger.gif',
         tech: [
             'JavaScript',
             'HTML5',
             'CSS',
             'jQuery'
-        ]
-    },
-    {
-        name: 'Losang Samten Website',
-        year: '2015',
-        description: 'This is the website for Tibetan Mandala artist, Losang Samten. It uses the Knockout JS MVC library.',
-        repoURL: 'https://bitbucket.org/lautomator/losang-samten-website/',
-        repoBadge: 'fa fa-bitbucket-square fa-2x',
-        projectURL: 'http://www.losangsamten.com/',
-        projectImage: 'img/samten-site.jpg',
-        tech: [
-            'HTML5',
-            'CSS',
-            'jQuery',
-            'Knockout'
-        ]
-    },
-            {
-        name: 'Mia Johnson: Musician Website',
-        year: '2014',
-        description: 'This is the website for Mia Johnson, a Philadelphia-based singer/songwriter. The site uses a modified Wordpress theme.',
-        repoURL: 'https://bitbucket.org/lautomator/miajohnson',
-        repoBadge: 'fa fa-bitbucket-square fa-2x',
-        projectURL: 'http://miajohnson.net/',
-        projectImage: 'img/mia-site.png',
-        tech: [
-            'Wordpress',
-            'PHP',
-            'CSS'
         ]
     },
     {
@@ -161,20 +127,6 @@ export const ProjectData = [
         tech: [
             'Python',
             'GUI'
-        ]
-    },
-    {
-        name: 'Calculator',
-        year: '2018',
-        description: 'This is a simple calculator. You can employ basic math functions. You can also add console output to memory to use later. The application demonstrates a Model View Controller (MVC) design pattern.',
-        repoURL: 'https://github.com/lautomator/calculator',
-        repoBadge: 'fa fa-git-square fa-2x',
-        projectURL: 'http://lautomator.github.io/apps/calculator/',
-        projectImage: 'img/calc-cropped.png',
-        tech: [
-            'HTML5',
-            'CSS',
-            'JavaScript'
         ]
     }
 ];
