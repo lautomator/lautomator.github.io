@@ -99,7 +99,7 @@ function ResumeButton(props) {
                 role="button"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="{props.resumeUrl">
+                href={props.resumeUrl}>
                 my resum&eacute; &raquo;
             </a>
         </p>
@@ -168,26 +168,41 @@ function ProjectText(props) {
 }
 
 function ProjectLinks(props) {
-    return (
-        <p>
-            <a
-                href={props.linksRepoURL}
-                title={props.linksTitle}
-                target="_blank"
-                rel="noopener noreferrer">
+    if (props.linksProjectURL === '') {
+        return (
+            <p>
+                <a
+                    href={props.linksRepoURL}
+                    title={props.linksTitle}
+                    target="_blank"
+                    rel="noopener noreferrer">
 
-                <span className={props.linksRepoBadge}></span>
-            </a>&nbsp;
-            <a
-                href={props.linksProjectURL}
-                title={props.linksName}
-                target="_blank"
-                rel="noopener noreferrer">
+                    <span className={props.linksRepoBadge}></span>
+                </a>&nbsp;
+            </p>
+        );
+    } else {
+        return (
+            <p>
+                <a
+                    href={props.linksRepoURL}
+                    title={props.linksTitle}
+                    target="_blank"
+                    rel="noopener noreferrer">
 
-                <span className="fa fa-arrow-circle-right fa-2x"></span>
-            </a>
-        </p>
-    );
+                    <span className={props.linksRepoBadge}></span>
+                </a>&nbsp;
+                <a
+                    href={props.linksProjectURL}
+                    title={props.linksName}
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <span className="fa fa-arrow-circle-right fa-2x"></span>
+                </a>
+            </p>
+        );
+    }
 }
 
 function Project(props) {

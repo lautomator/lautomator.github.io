@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Use the arrow keys to visit the four rooms.">
+    <meta name="author" content="https://github.com/lautomator">
+    <title>Four Rooms</title>
+    <link rel="icon" type="image/png" href="img/favicon.png?v=20180418">
+</head>
+<body>
+    <div class="mobile"><p>This game is for desktop only.</p></div>
+    <div class="container">
+        <div class="field">
+            <div class="object" id="pointer">&nbsp;</div>
+            <div class="object" id="key">&nbsp;</div>
+            <div class="object" id="sword">&nbsp;</div>
+            <div class="object" id="phone">&nbsp;</div>
+            <div class="object" id="doorA">&nbsp;</div>
+            <div class="object" id="doorB">&nbsp;</div>
+            <div class="object" id="doorC">&nbsp;</div>
+            <div class="object" id="phoneBooth">&nbsp;</div>
+        </div>
+        <div class="items">&nbsp;</div>
+    </div><!-- /container -->
+
+    <script>
+        var data = {
+            targets: {
+                head: document.getElementsByTagName("head"),
+                body: document.getElementsByTagName("body"),
+                pointer: document.getElementById("pointer"),
+                key: document.getElementById("key"),
+                sword: document.getElementById("sword"),
+                phone: document.getElementById("phone"),
+                doorA: document.getElementById("doorA"),
+                doorB: document.getElementById("doorB"),
+                doorC: document.getElementById("doorC"),
+                phoneBooth: document.getElementById("phoneBooth"),
+                items: document.getElementsByClassName("items")
+            },
+            templates: {
+                item: "<img src=\"%path%\" alt=\"%name%\"><span>%descr%</span>"
+            },
+            scriptName: "main.js",
+            styleName: "style.css",
+            v: Math.random(0, 1000) * 1000,
+            style: document.createElement("link"),
+            script: document.createElement("script")
+        };
+
+        // enqueue the main script
+        data.script.src = data.scriptName + "?v=" + data.v.toString().replace(".", "");
+        data.targets.body[0].appendChild(data.script);
+
+        // enqueue the style sheet
+        data.style.href = data.styleName + "?v=" + data.v.toString().replace(".", "");
+        data.style.rel = "stylesheet";
+        data.style.type = "text/css";
+        data.targets.head[0].appendChild(data.style);
+    </script>
+</body>
+</html>

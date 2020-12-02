@@ -7,15 +7,12 @@ The live site is here: [http://lautomator.github.io/](http://lautomator.github.i
 
 ## Apps
 These are the applications or websites showcased on this site:
+* Calculator
+* Some Cards
 * Codebreaker Game
 * Frogger Game
-* Neighborhood Map
-* Collections
 * My Wiki
-* Losang Samten Website
-* Mia Johnson Website
 * Cycle Plus One (music sequencer: ALPHA)
-* Calculator
 
 For more information on these, go to the site.
 
