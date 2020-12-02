@@ -266,7 +266,7 @@ function Footer() {
             <footer>
                 <p>
                     &copy;&nbsp;<span>{year}</span>&nbsp;
-                    <span>{siteData.name}</span>
+                    <span>{siteData.name} :: {siteData.footerText}</span>
                 </p>
             </footer>
         </div>

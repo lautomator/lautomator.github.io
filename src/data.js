@@ -21,7 +21,8 @@ export const siteData = {
     name: "John Merigliano",
     title: "Full Stack Web Developer",
     description: "I am a multifaceted web applications developer with 15+ years experience in the industry. I continue to perfect my skills as a web programmer through ongoing education and engagement with open source web community. My analytical skills combined with persistence and motivation drive my problem-solving process. I enjoy collaborating with others and working as a team member to develop cogent solutions. The process of collaboration is important to me, as it enhances education and professional growth. The projects below are an example of the scope of my work.",
-    resume: "http://lautomator.github.io/apps/merigliano-resume-2020-12-no-addr.pdf"
+    resume: "http://lautomator.github.io/apps/merigliano-resume-2020-12-no-addr.pdf",
+    footerText: "This site was created with React."
 };
 
 export const ProjectData = [
