@@ -41,6 +41,20 @@ export const ProjectData = [
         ]
     },
     {
+        name: 'Four Rooms',
+        year: '2018',
+        description: "Find your way out of these four rooms by picking up an using items to guide your way. Gain access to the telephone booth and teleport yourself from this dimension. A python",
+        repoURL: 'https://github.com/lautomator/four-rooms',
+        repoBadge: 'fa fa-git-square fa-2x',
+        projectURL: 'http://lautomator.github.io/apps/four-rooms',
+        projectImage: 'img/four-rooms.png',
+        tech: [
+            'HTML5',
+            'CSS',
+            'Javascript'
+        ]
+    },
+    {
         name: 'Some Cards',
         year: '2017',
         description: 'I heard you wanted some cards. Well, here ya go! This simple web app prompts users to enter the number of cards they want dealt from a standard deck of 52 cards. The backend uses native javascript.',
@@ -55,16 +69,18 @@ export const ProjectData = [
         ]
     },
     {
-        name: 'Cycle Plus One',
-        year: '2016',
-        description: '[ALPHA: IN DEVELOPMENT] Cycle Plus One is a musical pattern generator (sequencer) that can be used to explore interesting sonic experiences. Using a fixed rhythmic profile, a steady eighth note pulse, you can experiment with tonality and density within a specified cycle of beats. The application can help composers create a matrix of tones that can be exported as MIDI or musical XML. From there, the material can be worked with further in a sequencing or music notation program. Cycle Plus One is meant to be a starting point for experimentation, allowing the composer to play with variation using a minimal amount of musical material.',
-        repoURL: 'https://sourceforge.net/p/cycle-plus-one/code/ci/master/tree/',
+        name: 'Simple Maze',
+        year: '2018',
+        description: "Get lost in a maze or find your way out by getting to the other side. This static maze's coordinates were generated from an image and a processor (built using Python code).",
+        repoURL: 'https://github.com/lautomator/simple-maze',
         repoBadge: 'fa fa-git-square fa-2x',
-        projectURL: 'https://sourceforge.net/projects/cycle-plus-one/',
-        projectImage: 'img/cycle_plus_one_icon_alt.jpg',
+        projectURL: 'http://lautomator.github.io/apps/simple-maze',
+        projectImage: 'img/simple-maze.png',
         tech: [
-            'Python',
-            'GUI'
+            'HTML5',
+            'CSS',
+            'Javascript',
+            'Python'
         ]
     },
     {
@@ -126,32 +142,16 @@ export const ProjectData = [
         ]
     },
     {
-        name: 'Four Rooms',
-        year: '2018',
-        description: "Find your way out of these four rooms by picking up an using items to guide your way. Gain access to the telephone booth and teleport yourself from this dimension. A python",
-        repoURL: 'https://github.com/lautomator/four-rooms',
+        name: 'Cycle Plus One',
+        year: '2016',
+        description: '[ALPHA: IN DEVELOPMENT] Cycle Plus One is a musical pattern generator (sequencer) that can be used to explore interesting sonic experiences. Using a fixed rhythmic profile, a steady eighth note pulse, you can experiment with tonality and density within a specified cycle of beats. The application can help composers create a matrix of tones that can be exported as MIDI or musical XML. From there, the material can be worked with further in a sequencing or music notation program. Cycle Plus One is meant to be a starting point for experimentation, allowing the composer to play with variation using a minimal amount of musical material.',
+        repoURL: 'https://sourceforge.net/p/cycle-plus-one/code/ci/master/tree/',
         repoBadge: 'fa fa-git-square fa-2x',
-        projectURL: 'http://lautomator.github.io/apps/four-rooms',
-        projectImage: 'img/four-rooms.png',
+        projectURL: 'https://sourceforge.net/projects/cycle-plus-one/',
+        projectImage: 'img/cycle_plus_one_icon_alt.jpg',
         tech: [
-            'HTML5',
-            'CSS',
-            'Javascript'
-        ]
-    },
-    {
-        name: 'Simple Maze',
-        year: '2018',
-        description: "Get lost in a maze or find your way out by getting to the other side. This static maze's coordinates were generated from an image and a processor (built using Python code).",
-        repoURL: 'https://github.com/lautomator/simple-maze',
-        repoBadge: 'fa fa-git-square fa-2x',
-        projectURL: 'http://lautomator.github.io/apps/simple-maze',
-        projectImage: 'img/simple-maze.png',
-        tech: [
-            'HTML5',
-            'CSS',
-            'Javascript',
-            'Python'
+            'Python',
+            'GUI'
         ]
     },
     {
