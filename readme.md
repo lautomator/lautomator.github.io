@@ -16,9 +16,13 @@ These are the applications or websites showcased on this site:
 
 For more information on these, go to the site.
 
-## Setup and Available Scripts
+## Setup and Development
 
 After getting the source files from this repo, run `npm install` to install the necessary node modules. You can also review directions in the link for REACT, below.
+
+`npm start` will start the development environment. From there, you can make changes and commit code. `npm build` will create/update the build folder (a final optimized version for production). `npm deploy` will send it over to the `gh-pages` branch of this repository. `gh-pages` is the production version of the site.
+
+## Available Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
