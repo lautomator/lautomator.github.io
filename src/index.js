@@ -122,21 +122,33 @@ class Hero extends React.Component {
 }
 
 function ProjectImage(props) {
-    return (
-        <p>
-            <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={props.imgUrl}
-                title={props.imgName}>
+    if (props.imgUrl === "") {
+        return (
+            <p>                
                 <img
-                    className="img-responsive"
+                    className="img-responsive project-img"
                     src={props.imgImage}
                     alt={props.imgName}
                 />
-            </a>
-        </p>
-    );
+            </p>
+        ); 
+    } else {
+        return (
+            <p>
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href={props.imgUrl}
+                    title={props.imgName}>
+                    <img
+                        className="img-responsive"
+                        src={props.imgImage}
+                        alt={props.imgName}
+                    />
+                </a>
+            </p>
+        );
+    }
 }
 
 function TechTags(props) {
@@ -168,7 +180,7 @@ function ProjectText(props) {
 }
 
 function ProjectLinks(props) {
-    if (props.linksProjectURL === '') {
+    if (props.linksProjectURL === "") {
         return (
             <p>
                 <a

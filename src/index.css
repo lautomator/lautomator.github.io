@@ -59,6 +59,11 @@ img:hover {
     opacity: 0.5;
 }
 
+.project-img {
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
 /* ====================
          responsive
 ==================== */
