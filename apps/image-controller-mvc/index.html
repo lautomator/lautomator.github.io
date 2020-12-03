@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" data-bind="attr: { content: description }">
+        <meta name="author" data-bind="attr: { content: author }">
+        <!-- <link rel="icon" href=""> -->
+
+        <title data-bind="text: title"></title>
+
+        <!-- css -->
+        <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!-- This is the view -->
+        <div class="container">
+
+            <div class="row background_pattern">
+                <!-- image holder -->
+                <div class="image_holder">
+                    <img class="img-responsive source_image" data-bind="attr: { src: image }" alt="creative commons image">
+                </div><!-- /image holder -->
+            </div><!-- /row -->
+
+            <div class="row">
+                <!-- the controls -->
+                <div class="controls">
+                    <div class="row">
+                        <!-- brightness -->
+                        <div class="col-md-4 controller">
+                            <input type="range" name="brightness" min="-10" max="10" data-bind="value: brightness, event: { change: setBrightness }">
+                            <p>brightness:<br><span data-bind="text: brightness">0</span></p>
+                        </div><!-- /brightness -->
+
+                        <!-- opacity -->
+                        <div class="col-md-4 controller">
+                            <input type="range" name="opacity" min="0" max="100" data-bind="value: opacity, event: { change: setOpacity }">
+                            <p>opacity:<br><span data-bind="text: opacity">0</span>%</p>
+                        </div><!-- /opacity -->
+
+                        <!-- grayscale -->
+                        <div class="col-md-4 controller">
+                            <input type="checkbox" name="grayscale" data-bind="value: grayscale, event: { change: setGrayscale }">
+                            <p>grayscale:<br><span data-bind="text: grayscale">0</span></p>
+                        </div><!-- /grayscale -->
+                    </div><!-- /row -->
+
+                    <hr>
+
+                    <div class="row">
+                        <!-- coolness -->
+                        <div class="col-md-6 controller">
+                            <input type="range" name="coolness" min="0" max="10" data-bind="value: coolness, event: { change: setCoolness }">
+                            <p>cooler:<br><span data-bind="text: coolness">0</span></p>
+                        </div><!-- /coolness -->
+
+                        <!-- warmness -->
+                        <div class="col-md-6 controller">
+                            <input type="range" name="warmness" min="0" max="10" data-bind="value: warmness, event: { change: setWarmness }">
+                            <p>warmer:<br><span data-bind="text: warmness">0</span></p>
+                        </div><!-- /warmness -->
+                    </div><!-- /row -->
+                </div><!-- /controls -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+
+        <!-- javascript -->
+        <script src="js/lib/jquery.min.js"></script>
+        <script src="js/lib/bootstrap.min.js"></script>
+        <script src='js/lib/knockout-3.4.0.js'></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
