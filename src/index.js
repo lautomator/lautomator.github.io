@@ -219,7 +219,7 @@ function ProjectLinks(props) {
 
 function Project(props) {
     return (
-        <div className="width-33">
+        <div className="width-33 a-project">
             <ProjectImage
                 imgUrl={props.projectURL}
                 imgName={props.name}

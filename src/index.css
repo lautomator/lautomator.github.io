@@ -111,8 +111,13 @@ img:hover {
 }
 @media (min-width: 768px) and (max-width: 992px) {
     .jumbotron {
-        background: url("/img/jm-bio-pic-@35.jpg") no-repeat right top;
+        background: url("/img/jm-bio-pic-@35.jpg") no-repeat 80% top;
         background-size: cover;
+    }
+
+    .a-project {
+        margin: 0 auto;
+        width: 66%;
     }
 }
 
