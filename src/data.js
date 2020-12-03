@@ -20,9 +20,9 @@ export const navData = [
 export const siteData = {
     name: "John Merigliano",
     title: "Full Stack Web Developer",
-    description: "I am a multifaceted web applications developer with 15+ years experience in the industry. I continue to perfect my skills as a web programmer through ongoing education and engagement with open source web community. My analytical skills combined with persistence and motivation drive my problem-solving process. I enjoy collaborating with others and working as a team member to develop cogent solutions. The process of collaboration is important to me, as it enhances education and professional growth. The projects below are an example of the scope of my work.",
+    description: "I am a multifaceted web applications developer with 15+ years experience in the industry. I continue to hone my skills as a programmer through ongoing education and engagement with open source communities. My analytical skills combined with persistence and motivation drive my problem-solving process. I enjoy collaborating and working as a team member to formulate cogent solutions. The process of collaboration is important to me, as it enhances education and professional growth. The projects below are an example of the scope of my work.",
     resume: "docs/merigliano-resume-2020-12-no-addr.pdf",
-    footerText: "This site was created with React. See the site repository (link up top) for more info.",
+    footerText: "This site was created with React. See the site repository (link up top) for more information",
     siteRepo: "https://github.com/lautomator/lautomator.github.io"
 };
 
@@ -44,7 +44,7 @@ export const ProjectData = [
     {
         name: "Four Rooms",
         year: "2018",
-        description: "Find your way out of these four rooms by picking up an using items to guide your way. Gain access to the telephone booth and teleport yourself from this dimension.",
+        description: "Find your way out of these four rooms by picking up an using items to guide your way. Gain access to the telephone booth and teleport yourself from this dimension. This purely a javascript exercise. The challenge was to create a map system to create the player boundaries.",
         repoURL: "https://github.com/lautomator/four-rooms",
         repoBadge: "fa fa-git-square fa-2x",
         projectURL: "apps/four-rooms",
@@ -58,7 +58,7 @@ export const ProjectData = [
     {
         name: "Some Cards",
         year: "2017",
-        description: "I heard you wanted some cards. Well, here ya go! This simple web app prompts users to enter the number of cards they want dealt from a standard deck of 52 cards. The backend uses native javascript.",
+        description: "This simple web app prompts users to enter the number of cards they want dealt from a standard deck of 52 cards. The backend uses native javascript. For this, I wanted to create something that just dealt the cards and allowed me to create my own CSS bootstrap and some randomization.",
         repoURL: "https://github.com/lautomator/some-cards/",
         repoBadge: "fa fa-git-square fa-2x",
         projectURL: "apps/some-cards/",
@@ -72,7 +72,7 @@ export const ProjectData = [
     {
         name: "Simple Maze",
         year: "2018",
-        description: "Get lost in a maze or find your way out by getting to the other side. This static maze's coordinates were generated from an image and a processor (built using Python code).",
+        description: "Get lost in a maze or find your way out by getting to the other side. This static maze's coordinates were generated from an image and a processor (built using Python code). Although this could be extended to make random mazes each time, I wanted to create a system for building the mapping (boundaries) that would later get put into a javascript data file. I developed a script in Python to facilitate this.",
         repoURL: "https://github.com/lautomator/simple-maze",
         repoBadge: "fa fa-git-square fa-2x",
         projectURL: "apps/simple-maze",
@@ -87,7 +87,7 @@ export const ProjectData = [
     {
         name: "Codebreaker Game",
         year: "2015",
-        description: "This is a guessing game. This game is based on the classic Atari 2600 game of the same title. The object of the game is for the player to guess 3 numbers between 0 and 9 in the correct order. The game is written entirely in javaScript, HTML/CSS.",
+        description: "This is a guessing game and is based on the classic Atari 2600 game of the same title. The object is for the player to guess 3 numbers between 0 and 9 in the correct order. The game provides hints to let you know if you are guessing the correct numbers and does not divulge the exact positions of those numbers. The game is written entirely in javaScript, HTML/CSS and uses a Model View Controller design pattern.",
         repoURL: "https://github.com/lautomator/codebreaker",
         repoBadge: "fa fa-git-square fa-2x",
         projectURL: "apps/codebreaker/",
@@ -103,7 +103,7 @@ export const ProjectData = [
     {
         name: "Codebreaker Game (Command Line Version)",
         year: "2014",
-        description: "This is a guessing game. This game is based on the classic Atari 2600 game of the same title. The object of the game is for the player to guess n=level numbers between 0 and 9 in the correct order. The game is written entirely in Python.",
+        description: "This is the command line version of Codebreaker. The object of the game is for the player to guess numbers between 0 and 9 in the correct order. The game is written entirely in Python. When I set out to recreate this game, I wanted to understand the concepts behind it by making a pure text version. This version allows you to select a skill level.",
         repoURL: "https://bitbucket.org/lautomator/code-breaker/src/master/",
         repoBadge: "fa fa-git-square fa-2x",
         projectURL: "",
@@ -115,7 +115,7 @@ export const ProjectData = [
     {
         name: "Frogger!",
         year: "2015",
-        description: "This project was created, in part, to fulfill the requirements of my Udacity Web Developer Nano Degree. It uses a game engine and object oriented programming.",
+        description: "This project was created, in part, to fulfill the requirements of my Udacity Web Developer Nano Degree. It uses a game engine and object oriented programming. The purpose of the game is to get the frog to the other side of the road and accumulate points. An interesting challenge with this one was the problem of how to streamline the interaction of objects and give the impression that a collision has occured without the app becoming too shakey.",
         repoURL: "https://github.com/lautomator/lautomator.github.io/tree/master/apps/frogger",
         repoBadge: "fa fa-git-square fa-2x",
         projectURL: "apps/frogger",
@@ -158,7 +158,7 @@ export const ProjectData = [
     {
         name: "Line Processor",
         year: "2018",
-        description: "Enter any amount of text and get some stats.",
+        description: "Enter any amount of text and get some relevant information. This was mostly just a challenge to do some line processing with javascript and present the results in the DOM. I created this with the idea that I could use various string methods to calculate the information returned. Over the yeas, I have done these types of small exercises in languages like PHP and Python. It's a neat way to learn about string modules and you can keep adding things to this to make it more robust.",
         repoURL: "https://github.com/lautomator/line-processor",
         repoBadge: "fa fa-git-square fa-2x",
         projectURL: "apps/line-processor",
