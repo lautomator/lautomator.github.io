@@ -43,7 +43,7 @@ export const ProjectData = [
     {
         name: "Four Rooms",
         year: "2018",
-        description: "Find your way out of these four rooms by picking up an using items to guide your way. Gain access to the telephone booth and teleport yourself from this dimension. A python",
+        description: "Find your way out of these four rooms by picking up an using items to guide your way. Gain access to the telephone booth and teleport yourself from this dimension.",
         repoURL: "https://github.com/lautomator/four-rooms",
         repoBadge: "fa fa-git-square fa-2x",
         projectURL: "apps/four-rooms",
