@@ -91,16 +91,16 @@ function IntroText(props) {
     );
 }
 
-function ResumeButton(props) {
+function Button(props) {
     return (
-        <p>
+        <p className='cta-button'>
             <a
                 className="btn btn-default btn-sm"
                 role="button"
                 target="_blank"
                 rel="noopener noreferrer"
-                href={props.resumeUrl}>
-                my resum&eacute; &raquo;
+                href={props.buttonUrl}>
+                {props.buttonTxt}
             </a>
         </p>
     );
@@ -114,7 +114,14 @@ class Hero extends React.Component {
                     <SiteTitle siteTitle={siteData.name} />
                     <SiteRole title={siteData.title} />
                     <IntroText introText={siteData.description} />
-                    <ResumeButton resumeUrl={siteData.resume} />
+                    <Button 
+                        buttonUrl={siteData.resume}
+                        buttonTxt='my resum&eacute; &raquo;'
+                    />
+                    <Button 
+                        buttonUrl={siteData.siteRepo}
+                        buttonTxt='site repository  &raquo;'
+                    />
                 </div>
             </div>
         );
