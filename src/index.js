@@ -141,7 +141,7 @@ function ProjectImage(props) {
                     href={props.imgUrl}
                     title={props.imgName}>
                     <img
-                        className="img-responsive"
+                        className="img-responsive project-img"
                         src={props.imgImage}
                         alt={props.imgName}
                     />
