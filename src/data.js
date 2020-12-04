@@ -116,7 +116,7 @@ export const ProjectData = [
         name: "Frogger!",
         year: "2015",
         description: "This project was created, in part, to fulfill the requirements of my Udacity Web Developer Nano Degree. It uses a game engine and object oriented programming. The purpose of the game is to get the frog to the other side of the road and accumulate points. An interesting challenge with this one was the problem of how to streamline the interaction of objects and give the impression that a collision has occured without the app becoming too shakey.",
-        repoURL: "https://github.com/lautomator/lautomator.github.io/tree/master/apps/frogger",
+        repoURL: "https://github.com/lautomator/frogger-game",
         repoBadge: "fa fa-git-square fa-2x",
         projectURL: "apps/frogger",
         projectImage: "img/frogger.gif",
