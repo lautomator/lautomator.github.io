@@ -28,17 +28,29 @@ export const siteData = {
 
 export const ProjectData = [
     {
-        name: "Calculator",
-        year: "2018",
-        description: "This is a simple calculator. You can employ basic math functions. You can also add console output to memory to use later. The application demonstrates a Model View Controller (MVC) design pattern.",
-        repoURL: "https://github.com/lautomator/calculator",
+        name: "Stocks Log",
+        year: "2021",
+        description: "Enter short or long term trades. The stocks log calculates risk, profit, and loss. This is a work in progress and is meant for local development.",
+        repoURL: "https://github.com/lautomator/stocks-log",
         repoBadge: "fa fa-git-square fa-2x",
-        projectURL: "apps/calculator/",
-        projectImage: "img/calc-cropped.png",
+        projectURL: "",
+        projectImage: "img/stocks-log.png",
         tech: [
-            "HTML5",
-            "CSS",
-            "JavaScript"
+            "Python",
+            "Flask",
+            "HTML"
+        ]
+    },
+    {
+        name: "Codebreaker Game (Command Line Version)",
+        year: "2014",
+        description: "This is the command line version of Codebreaker. The object of the game is for the player to guess numbers between 0 and 9 in the correct order. The game is written entirely in Python. When I set out to recreate this game, I wanted to understand the concepts behind it by making a pure text version. This version allows you to select a skill level.",
+        repoURL: "https://bitbucket.org/lautomator/code-breaker/src/master/",
+        repoBadge: "fa fa-git-square fa-2x",
+        projectURL: "",
+        projectImage: "img/codebreaker-2.png",
+        tech: [
+            "Python"
         ]
     },
     {
@@ -101,15 +113,17 @@ export const ProjectData = [
         ]
     },
     {
-        name: "Codebreaker Game (Command Line Version)",
-        year: "2014",
-        description: "This is the command line version of Codebreaker. The object of the game is for the player to guess numbers between 0 and 9 in the correct order. The game is written entirely in Python. When I set out to recreate this game, I wanted to understand the concepts behind it by making a pure text version. This version allows you to select a skill level.",
-        repoURL: "https://bitbucket.org/lautomator/code-breaker/src/master/",
+        name: "Calculator",
+        year: "2018",
+        description: "This is a simple calculator. You can employ basic math functions. You can also add console output to memory to use later. The application demonstrates a Model View Controller (MVC) design pattern.",
+        repoURL: "https://github.com/lautomator/calculator",
         repoBadge: "fa fa-git-square fa-2x",
-        projectURL: "",
-        projectImage: "img/codebreaker-2.png",
+        projectURL: "apps/calculator/",
+        projectImage: "img/calc-cropped.png",
         tech: [
-            "Python"
+            "HTML5",
+            "CSS",
+            "JavaScript"
         ]
     },
     {

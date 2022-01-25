@@ -7,12 +7,17 @@ The live site is here: [http://lautomator.github.io/](http://lautomator.github.i
 
 ## Apps
 These are the applications or websites showcased on this site:
-* Calculator
+* Stocks Log
+* Codebreaker Game (CL version)
+* Four Rooms
 * Some Cards
+* Simple Maze
 * Codebreaker Game
+* Calculator
 * Frogger Game
-* My Wiki
+* MVC Image Controller
 * Cycle Plus One (music sequencer: ALPHA)
+* Line Processor
 
 For more information on these, go to the site.
 
