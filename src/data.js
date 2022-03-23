@@ -20,7 +20,7 @@ export const navData = [
 export const siteData = {
     name: "John Merigliano",
     title: "Full Stack Web Developer",
-    description: "I am a multifaceted web applications developer with 10+ years experience in the industry. I continue to hone my skills as a programmer through ongoing education and engagement with open source communities. My analytical skills combined with persistence and motivation drive my problem-solving process. I enjoy collaborating and working as a team member to formulate cogent solutions. The process of collaboration is important to me, as it enhances education and professional growth. The projects below are an example of the scope of my work.",
+    description: "I am a multifaceted web applications developer with 10+ years experience in the industry. I continue to hone my skills as a programmer through ongoing education and engagement with open source communities. My analytical skills combined with persistence and motivation drive my problem-solving process. I enjoy collaborating and working as a team member to formulate cogent solutions. The process of collaboration is important to me, as it enhances education and professional growth. The projects below highlight the scope of my work.",
     resume: "docs/merigliano-resume-2020-12-no-addr.pdf",
     footerText: "This site was created with React. See the site repository (link up top) for more information",
     siteRepo: "https://github.com/lautomator/lautomator.github.io"
@@ -30,11 +30,11 @@ export const ProjectData = [
     {
         name: "Stocks Log",
         year: "2021",
-        description: "Enter short or long term trades. The stocks log calculates risk, profit, and loss. This is a work in progress and is meant for local development.",
+        description: "Keep track of your investments, including risk, profit, and loss. The app generates an overall report with some basic metrics including, frequency of trades, PnL, and trading patterns. There is the option to include a chart with each trade record. The log is meant to be a repository for your short and long term trades and should be used for reflection, analysis, and education. This version of the app is intended as a demonstration of its features.",
         repoURL: "https://github.com/lautomator/stocks-log",
         repoBadge: "fa fa-git-square fa-2x",
-        projectURL: "",
-        projectImage: "img/stocks-log.png",
+        projectURL: "https://damp-island-14971.herokuapp.com/",
+        projectImage: "img/stocks-log-wiki-commons.jpeg",
         tech: [
             "Python",
             "Flask",
