@@ -7,6 +7,7 @@ The live site is here: [http://lautomator.github.io/](http://lautomator.github.i
 
 ## Apps
 These are the applications or websites showcased on this site:
+* Can I Publish This Libel Module
 * Stocks Log
 * Codebreaker Game (CL version)
 * Four Rooms
