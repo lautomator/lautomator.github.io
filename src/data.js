@@ -28,6 +28,22 @@ export const siteData = {
 
 export const ProjectData = [
     {
+        name: "Can I Publish This? Libel Module",
+        year: "2021",
+        description: "Can I Publish This? is an interactive, online decision tree that will guide student journalists through self-pre publication review. This was created for the Foundation for Individual Rights in Education (FIRE). This Django version of the application is a prototype.",
+        repoURL: "https://github.com/lautomator/can-i-publish-this-v2",
+        repoBadge: "fa fa-git-square fa-2x",
+        projectURL: "https://polar-everglades-28624.herokuapp.com/Q1/",
+        projectImage: "img/newspapers-wiki-commons.png",
+        tech: [
+            "Python",
+            "Django",
+            "HTML",
+            "CSS",
+            "Javascript"
+        ]
+    },
+    {
         name: "Stocks Log",
         year: "2021",
         description: "Keep track of your investments, including risk, profit, and loss. The app generates an overall report with some basic metrics including, frequency of trades, PnL, and trading patterns. There is the option to include a chart with each trade record. The log is meant to be a repository for your short and long term trades and should be used for reflection, analysis, and education. This version of the app is intended as a demonstration of its features.",
