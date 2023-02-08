@@ -23,7 +23,7 @@ export const siteData = {
     description: "I am a multifaceted web applications developer with 10+ years experience in the industry. I continue to hone my skills as a programmer through ongoing education and engagement with open source communities. My analytical skills combined with persistence and motivation drive my problem-solving process. I enjoy collaborating and working as a team member to formulate cogent solutions. The process of collaboration is important to me, as it enhances education and professional growth. The projects below highlight the scope of my work.",
     resume: "docs/merigliano_resume.pdf",
     resumeVersionStr: "?v=20230208",
-    footerText: "This site was created with React. See the site repository (link up top) for more information",
+    footerText: "This site was created with React.",
     siteRepo: "https://github.com/lautomator/lautomator.github.io"
 };
 
