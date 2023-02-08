@@ -115,7 +115,7 @@ class Hero extends React.Component {
                     <SiteRole title={siteData.title} />
                     <IntroText introText={siteData.description} />
                     <Button 
-                        buttonUrl={siteData.resume}
+                        buttonUrl={siteData.resume + siteData.resumeVersionStr}
                         buttonTxt='my resum&eacute; &raquo;'
                     />
                     <Button 
