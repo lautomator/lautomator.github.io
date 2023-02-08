@@ -1,7 +1,7 @@
 # John Merigliano
-### Full Stack Web Developer
+### Full-stack Web Developer
 
-These are the source files for my personal website: John Merigliano, Full Stack Web Developer. The site showcases my skills as a web developer and programmer.
+These are the source files for my personal website: John Merigliano, Full-stack Web Developer. The site showcases my skills as a web programmer.
 
 The live site is here: [http://lautomator.github.io/](http://lautomator.github.io/).
 
@@ -17,7 +17,6 @@ These are the applications or websites showcased on this site:
 * Calculator
 * Frogger Game
 * MVC Image Controller
-* Cycle Plus One (music sequencer: ALPHA)
 * Line Processor
 
 For more information on these, go to the site.

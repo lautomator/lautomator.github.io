@@ -174,19 +174,6 @@ export const ProjectData = [
         ]
     },
     {
-        name: "Cycle Plus One",
-        year: "2016",
-        description: "[ALPHA: IN DEVELOPMENT] Cycle Plus One is a musical pattern generator (sequencer) that can be used to explore interesting sonic experiences. Using a fixed rhythmic profile, a steady eighth note pulse, you can experiment with tonality and density within a specified cycle of beats. The application can help composers create a matrix of tones that can be exported as MIDI or musical XML. From there, the material can be worked with further in a sequencing or music notation program. Cycle Plus One is meant to be a starting point for experimentation, allowing the composer to play with variation using a minimal amount of musical material.",
-        repoURL: "https://sourceforge.net/p/cycle-plus-one/code/ci/master/tree/",
-        repoBadge: "fa fa-git-square fa-2x",
-        projectURL: "https://sourceforge.net/projects/cycle-plus-one/",
-        projectImage: "img/cycle_plus_one_icon_alt.jpg",
-        tech: [
-            "Python",
-            "GUI"
-        ]
-    },
-    {
         name: "Line Processor",
         year: "2018",
         description: "Enter any amount of text and get some relevant information. This was mostly just a challenge to do some line processing with javascript and present the results in the DOM. I created this with the idea that I could use various string methods to calculate the information returned. Over the yeas, I have done these types of small exercises in languages like PHP and Python. It's a neat way to learn about string modules and you can keep adding things to this to make it more robust.",
