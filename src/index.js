@@ -285,7 +285,13 @@ function Footer() {
             <footer>
                 <p>
                     &copy;&nbsp;<span>{year}</span>&nbsp;
-                    <span>{siteData.name} :: {siteData.footerText}</span>
+                    <span>{siteData.name} ::
+                        <a
+                            href={siteData.reactLink}
+                            target="_blank"
+                            rel="noopener"> {siteData.footerText}
+                        </a>
+                    </span>
                 </p>
             </footer>
         </div>

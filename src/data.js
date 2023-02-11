@@ -24,6 +24,7 @@ export const siteData = {
     resume: "docs/merigliano_resume.pdf",
     resumeVersionStr: "?v=20230208-1",
     footerText: "This site was created with React.",
+    reactLink: "https://reactjs.org/",
     siteRepo: "https://github.com/lautomator/lautomator.github.io"
 };
 
